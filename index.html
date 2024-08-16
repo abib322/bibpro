@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KfmTV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.java">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#accueil">
+               <img src="logo-Kfmtv1.jpg.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#programmes">Programmes</a></li>
+                <li><a href="#live">En Direct</a></li>
+                <li><a href="#news">Actualités</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<main class="corre">
+    <section id="accueil" class="hero">
+        <h2>Bienvenue sur la chaîne Karang future média</h2>
+        <p>Découvrez les programmes exclusifs et regardez en direct où que vous soyez.</p>
+    </section>
+<main id="programme" class="programme-jour">
+    <section id="programmes" class="section">
+        <h2>Nos Programmes</h2>
+    <div class="programme-grid"> 
+        <div class="actualité-jour">
+            <h3>Journal Télévisé</h3>
+            <p>Diffusé tous les jours à 20h00.</p>
+            <article class="news-item">
+                <img src="2.jpg" alt="Actualité 2">
+                <h2>Titre de l'actualité 2</h2>
+                <p>Brève description de l'actualité 2. Nullam malesuada eros at lectus vehicula tincidunt...</p>
+                <a href="article2.html" class="read-more">Lire la suite</a>
+            </article>
+        </div>
+        <div class="actualité-jour">
+            <h3>Emission</h3>
+            <p>lundi, Mercredi, Vendredi à 17h00</p>
+            <article class="news-item">
+                <img src="2.jpg" alt="Actualité 2">
+                <h2>Titre de l'actualité 2</h2>
+                <p>Brève description de l'actualité 2. Nullam malesuada eros at lectus vehicula tincidunt...</p>
+                <a href="article2.html" class="read-more">Lire la suite</a>
+            </article>
+        </div>
+        <div class="actualité-jour">
+            <h3>Documentaires</h3>
+            <p>Mardi, Jeudi, à 22h00</p>
+            <article class="news-item">
+                <img src="2.jpg" alt="Actualité 2">
+                <h2>Titre de l'actualité 2</h2>
+                <p>Brève description de l'actualité 2. Nullam malesuada eros at lectus vehicula tincidunt...</p>
+                <a href="article2.html" class="read-more">Lire la suite</a>
+            </article>
+        </div>
+    </div> 
+    </section>
+</main>    
+
+    <section id="live" class="direct">
+        <h2>Regardez en direct</h2>
+        <!-- Remplace cette iframe par un flux live si disponible -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <main>
+        <section id="news" class="news-section">
+            <h1>Actualités</h1>
+            <div class="news-grid">
+                <article class="news-item">
+                    <img src="1.jpg" alt="Actualité 1">
+                    <h2>Titre de l'actualité 1</h2>
+                    <p>Brève description de l'actualité 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <a href="article1.html" class="read-more">Lire la suite</a>
+                </article>
+
+                <article class="news-item">
+                    <img src="2.jpg" alt="Actualité 2">
+                    <h2>Titre de l'actualité 2</h2>
+                    <p>Brève description de l'actualité 2. Nullam malesuada eros at lectus vehicula tincidunt...</p>
+                    <a href="article2.html" class="read-more">Lire la suite</a>
+                </article>
+
+                <article class="news-item">
+                    <img src="3.jpg" alt="Actualité 3">
+                    <h2>Titre de l'actualité 3</h2>
+                    <p>Brève description de l'actualité 3. Sed quis augue eu velit suscipit convallis...</p>
+                    <a href="article3.html" class="read-more">Lire la suite</a>
+                </article>
+                <!-- Ajouter plus d'articles ici -->
+            </div>
+        </section>
+    </main>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Informations de Contact</h3>
+                <p>Adresse : Karang, Fougnougue, Fatick, Sénégal</p>
+                <p>Téléphone : +221 75 007 75 83</p>
+                <p>Email : <a href="mailto:contact@chaine.com">contact@chaine.com</a></p>
+                <p>Suivez-nous :</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>    
+
+    <footer>
+        <p>&copy; 2024 Karang future média. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
